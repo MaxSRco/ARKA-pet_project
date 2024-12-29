@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+select {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #011f3a;
+}
+
+a {
+    text-decoration: none;
+}
+
+select {
+    text-transform: uppercase;
+    border: none;
+    appearance: none;
+    width: 75px;
+    background-image: url(./assets/images/arrow-select.svg);
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+}
+
+header {
+    max-width: 1440px;
+    width: 100%;
+    height: 61px;
+    padding: 0 24px;
+    box-shadow: 0 14px 44px 0 rgba(84, 84, 84, 0.25);
+    background: #fff;
+    margin: 0 auto;
+    order: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu ul > li:first-child::before {
+    content: url(./assets/images/stars.svg);
+    vertical-align: middle;
+    margin-right: 13px;
+}
+
+.account-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Start your design */
+.design {
+    background-color: #f2ae4d;
+    max-width: 1440px;
+    width: 100%;
+    max-height: 750px;
+    height: 100vh;
+    padding-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;  
+}
+
+.design-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+}
+
+.design-title {
+    font-weight: 400;
+    font-size: 48px;
+    color: #011f3a;
+    margin-bottom: 33px;
+    line-height: 55px;
+}
+
+.design-text {
+    max-width: 277px;
+    margin-bottom: 14px;
+}
+
+.button-design {
+    border-radius: 44px;
+    border: none;
+    width: 228px;
+    height: 56px;
+    background-color: #3d5675;
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
