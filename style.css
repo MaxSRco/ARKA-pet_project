@@ -41,6 +41,37 @@ select {
 ul {
     list-style-type: none;
 }
+
+.btn {
+    border-radius: 44px;
+    border: none;
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    height: 44px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    cursor: grabbing;
+}
+
+.blue {
+    background: #3d5675;
+    color: #fff
+}
+
+.white {
+    background: #fff;
+    color: #3d5675;
+}
+
 /* Header */
 header {
     max-width: 1440px;
@@ -87,7 +118,7 @@ nav {
 /* ---------------------------------------- */
 /* Start your design */
 
-.design {
+.start-design {
     background-color: #f2ae4d;
     max-width: 1440px;
     width: 100%;
@@ -120,27 +151,9 @@ nav {
     margin-bottom: 14px;
 }
 
-.button-design {
-    border-radius: 44px;
-    border: none;
+.design {    
     width: 228px;
-    height: 56px;
-    background-color: #3d5675;
-    box-shadow: none;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: 0.11em;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.button-design:hover {
-    cursor: pointer;
-}
-
-.button-design:active {
-    cursor: grabbing;
+    height: 56px;    
 }
 
 .integration {
@@ -171,4 +184,91 @@ nav {
 
 .eco-friendly {
     max-width: 61px;
+}
+
+/* --------------------------------- */
+/* Products */
+.products .container {
+    background: #eee;
+}
+
+.products-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    margin-block: 57px;
+}
+
+.products-title {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.products.btn {
+    width: 247px;
+    height: 44px;
+}
+
+.custom-wrap {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 46px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ededed;
+    width: 399px;
+    height: 432px;
+    padding-inline: 25px;
+    background: #fff;
+}
+
+.card img {
+    width: 398px;
+    height: 302px;
+    align-self: center;
+    margin-bottom: 24px;
+    /* text-align: center; */
+}
+
+.card-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {    
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #011f3a;
+    text-align: left;
+}
+
+.card-description {    
+    max-width: 209px;
+    color: #777;
+}
+
+.card-price {
+    color: #a1a1a1;
+    text-align: right;
+}
+
+.shop-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 385px;
+    height: 100%;
+    margin: 46px auto 50px;
+}
+
+.shop-text {
+    font-weight: 700;
+    color: #a1a1a1;
 }
